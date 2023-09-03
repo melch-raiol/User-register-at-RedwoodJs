@@ -16,6 +16,16 @@ const Header = () => {
               SignUp
             </Link>
           </li>
+          <li>
+            <Link to={routes.about()} id="link">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to={routes.contact()} id="link">
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

@@ -16,6 +16,11 @@ interface FormValues {
 const UserForm = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     console.log(data)
+    clear(data)
+  }
+
+  const clear = (data) => {
+    console.log(data)
   }
 
   return (
