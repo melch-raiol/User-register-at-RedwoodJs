@@ -5,7 +5,7 @@
 
 Esse é um projeto de que por enquanto faz o registro de usuário em um sistema que que está usando o RedwoodJs como framework, em breve haverá mais atualizações nesse projeto.
 
-## Página de Upload de arquivo do projeto
+## Página de registro no formulário do projeto
 ![Mobile 2](https://github.com/melch-raiol/User-register-at-RedwoodJs/blob/main/web/src/assets/userRegisterImg01.png)
 
 # Tecnologias utilizadas
