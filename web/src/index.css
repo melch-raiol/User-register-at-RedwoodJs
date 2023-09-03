@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-layout {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1a202c;
+}
+
+.logo {
+  height: 70%;
+  width: 10%;
+
+  color: aliceblue;
+  border: 2px solid white;
+}
+
+.nav-header-layout {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.ul-header-layout {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+}
+
+.ul-header-layout > li {
+  list-style-type: none;
+}
+
+.ul-header-layout > li > #link {
+  font-size: 2em;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.div-signup-page {
+  height: 90vh;
+  /* border: 2px solid red; */
+}
+
+.img-signup {
+  height: 100%;
+  width: 60%;
+  /* border: 2px solid red; */
+}
+
+.img-signup > img {
+  height: 99%;
+  width: 100%;
+}
+
+.form-signup {
+  height: 100%;
+  width: 40%;
+}
+
+.user-form {
+  height: 80vh;
+  width: clamp(400px, 80%, 500px);
+  border-radius: 10px;
+  background-color: #1a202c;
+  /* border: 2px solid red; */
+}
+
+.div-form {
+  height: 95%;
+  width: 100%;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.div-input {
+  height: 13vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.label-form {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  padding: 5px;
+  /* border: 2px solid red; */
+}
+
+.input-form {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.div-text-area {
+  height: 40%;
+}
+
+.text-area {
+  height: 60%;
+}
+
+.btn-save {
+  cursor: pointer;
+  color: #ffff;
+  background-color: rgb(23, 202, 23);
+  border: 2px solid #1a202c;
+}
+
+.btn-save > p {
+  font-size: 2em;
+}
+
+.btn-save:hover {
+  border: 2px solid rgb(23, 202, 23);
+}
+
+@media (max-width: 1600px) {
+  .img-signup {
+    display: none;
+  }
+}
